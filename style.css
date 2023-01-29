@@ -7,15 +7,26 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     width: 95%;
     max-width: 788px;
-    display: flx;
+    display: flex;
     justify-content: flex-end;
     padding: 12;
     margin-top: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
 }
 
 .share-button {
@@ -23,6 +34,15 @@ header {
     height: 40px;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.share-button svg {
+    max-height: 50%;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -34,14 +54,51 @@ header {
     align-items: center;
 }
 
-.profile-image {
-    max-height: 200px;
+.image-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 46px;
+    overflow: hidden;
 }
+
+.image-container img {
+    height: 100%;
+}
+
 
 .tile {
     width: 100%;
-    height: 56px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(71, 71, 71);
     margin: 7px;
     border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52, 52, 52);
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile-share-button svg {
+    max-height: 50%;
+    color: rgb(0, 0, 0);
+}
+
+
+.icon {
+    width: 44px;
+    height: 44px;
+    margin: 4px 8px;
 }
