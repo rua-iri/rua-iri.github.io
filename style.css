@@ -7,8 +7,18 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    padding-bottom: 10vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */  
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 header {
     width: 95%;
