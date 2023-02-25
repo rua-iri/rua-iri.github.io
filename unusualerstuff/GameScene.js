@@ -22,8 +22,12 @@ class GameScene extends Phaser.Scene {
     create() {
 
         this.cursorKeys = this.input.keyboard.createCursorKeys();
+        this.spacebar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
+
+        this.ballDirection = "r";
 
         this.titleGroup = this.add.group();
+        this.projectiles = this.add.group();
 
 
         this.bgTile = this.add.tileSprite(0, 0, config.width * 2, config.height * 2, "labTile");
@@ -71,11 +75,16 @@ class GameScene extends Phaser.Scene {
 
 
     update() {
-        
+
         this.movePlayerManager();
-        
-        if(this.cursorKeys.space.isDown) {
+
+        if (Phaser.Input.Keyboard.JustDown(this.spacebar)) {
             this.fireProjectile();
+        }
+
+        for (let i = 0; i < this.projectiles.getChildren().length; i++) {
+            var pJectile = this.projectiles.getChildren()[i];
+            pJectile.update();
         }
 
     }
@@ -83,18 +92,35 @@ class GameScene extends Phaser.Scene {
 
     movePlayerManager() {
 
+
         this.mainCharacter.setVelocity(0);
 
-        if(this.cursorKeys.left.isDown) {
+        if (this.cursorKeys.left.isDown) {
             this.mainCharacter.setVelocityX(-300);
-        } else if(this.cursorKeys.right.isDown) {
+            this.ballDirection = "l";
+        } else if (this.cursorKeys.right.isDown) {
             this.mainCharacter.setVelocityX(300);
+            this.ballDirection = "r";
         }
-        
-        if(this.cursorKeys.up.isDown) {
+
+        if (this.cursorKeys.up.isDown) {
             this.mainCharacter.setVelocityY(-300);
-        } else if(this.cursorKeys.down.isDown) {
+
+            if (this.cursorKeys.right.isDown || this.cursorKeys.left.isDown) {
+                this.ballDirection += "u";
+            } else {
+                this.ballDirection = "u";
+            }
+
+        } else if (this.cursorKeys.down.isDown) {
             this.mainCharacter.setVelocityY(300);
+            
+            if (this.cursorKeys.right.isDown || this.cursorKeys.left.isDown) {
+                this.ballDirection += "d";
+            } else {
+                this.ballDirection = "d";
+            }
+
         }
     }
 
@@ -115,6 +141,7 @@ class GameScene extends Phaser.Scene {
 
 
 
+
 class Projectile extends Phaser.GameObjects.Sprite {
 
     constructor(scene) {
@@ -124,8 +151,47 @@ class Projectile extends Phaser.GameObjects.Sprite {
 
         super(scene, xPos, yPos, "bBall");
 
-        console.log("bleh")
-        scene.add(this);
+        console.log(scene.ballDirection)
+
+        this.setScale(0.5);
+
+
+        scene.add.existing(this);
+        scene.projectiles.add(this);
+        scene.physics.world.enableBody(this);
+
+
+        // TODO add collision detection so that baseballs will .destroy() when they hit walls
+        // also this should obviously occur when an enemy gets hit
+
+
+        for (let i = 0; i < scene.ballDirection.length; i++) {
+            if (scene.ballDirection[i] == "u") {
+                this.body.velocity.y = -400;
+            } else if (scene.ballDirection[i] == "d") {
+                this.body.velocity.y = 400;
+            } else if (scene.ballDirection[i] == "l") {
+                this.body.velocity.x = -400;
+            } else if (scene.ballDirection[i] == "r") {
+                this.body.velocity.x = 400;
+            }
+        }
+
     }
+
+
+    update() {
+
+        // destroy the projectiles if they go off screen
+        if (this.y < 32 || this.y > config.height) {
+            this.destroy();
+        }
+
+        if (this.x < 0 || this.x > config.width) {
+            this.destroy();
+        }
+    }
+
+
 
 }
