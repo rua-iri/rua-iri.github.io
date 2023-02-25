@@ -38,7 +38,7 @@ class SceneTitle extends Phaser.Scene {
         this.bigMountain.setScale(5);
         this.titleGroup.add(this.bigMountain);
 
-        this.bgTrees = this.add.tileSprite(100, 100, config.width, config.height, "bgTrees")
+        this.bgTrees = this.add.tileSprite(100, 100, config.width, config.height, "bgTrees");
         this.bgTrees.setScale(2);
         this.titleGroup.add(this.bgTrees);
 
