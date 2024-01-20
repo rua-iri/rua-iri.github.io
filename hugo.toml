@@ -52,19 +52,34 @@ featured = true # true to be displayed in the home hero.
 
 [Menu]
 [[menu.main]]
-name = "Projects."
+name = "Projects"
 url = "/projects/"
 weight = 1
 
 [[menu.main]]
-name = "Contact me."
-url = "mailto:mail@mail.com"
+name = "Blog"
+url = "/blog/"
 weight = 2
 
-[[menu.footer]]
-name = "Privacy Policy"
-url = "/privacy"
-weight= 1 
+[[menu.main]]
+name = "Github"
+url = "https://github.com/rua-iri"
+weight = 3
+
+# [[menu.main]]
+# name = "Contact me."
+# url = "mailto:mail@mail.com"
+# weight = 2
+
+# [[menu.footer]]
+# name = "Privacy Policy"
+# url = "/privacy"
+# weight= 1 
+
+# [[menu.footer]]
+# name = "blog"
+# url = "/blog"
+# weight= 2
 
 [taxonomies]
 category = "categories"

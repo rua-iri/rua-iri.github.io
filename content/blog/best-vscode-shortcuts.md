@@ -2,23 +2,109 @@
 author: "rua-iri"
 title: "Best VSCode Shortcuts"
 date: "2024-01-20"
-description: "Sample article."
-tags: ["markdown", "css", "html"]
-categories: ["syntax"]
+description: "Best VSCode Shortcuts"
+tags: ["vscode", "developing", "text editors"]
+# categories: ["syntax"]
 featured: true
-draft: true
+draft: false
+toc: true
 ---
 
 
-# Test Header
+# Best VSCode Shortcuts
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales rutrum nisi, a posuere nibh luctus nec. Nunc gravida sed nisl sed aliquet. Etiam vel leo lorem. Cras luctus convallis venenatis. Sed rhoncus lacus eu massa placerat lacinia. Donec sed iaculis turpis. Aliquam faucibus, purus cursus aliquet accumsan, urna tortor sollicitudin nulla, in commodo tortor metus eget mi. Aliquam eleifend fringilla purus a maximus.
+I was thinking about what might be a nice easy blog post to start this site off.
+Something straight forward that won't be too technically challenging to write and is largely based on my own subjective opinion.
 
-Nam tristique dolor sed risus ornare efficitur. Ut aliquam a dolor eu ultricies. Aliquam a metus ligula. Pellentesque sagittis consectetur quam, eget maximus tortor finibus sit amet. In condimentum, nisi eget efficitur consequat, purus erat gravida metus, ac euismod dolor arcu quis dui. Donec vel mauris id neque volutpat vestibulum. Duis aliquam eleifend augue, sodales accumsan dui dictum sit amet.
+The best topic is a top five list of the best keyboard shortcuts in VSCode that you may or may not have heard of before.
 
 
-## Test Subheader
+## 5. Hide Sidebar
 
-Morbi eu nulla at lacus pharetra porta. Morbi molestie augue at ex ultricies tempor. Sed elementum ex arcu, at sagittis dolor eleifend vel. Donec venenatis pellentesque sapien non iaculis. Curabitur sit amet venenatis lectus. In non dapibus lectus. Cras porta fermentum nisi.
+The program's sidebar has a nasty habit of getting in the way when developing, especially on a laptop where screen space is premium real estate.
 
-Quisque tempor non nunc eu bibendum. Etiam et augue bibendum, facilisis sapien vitae, ornare ligula. Fusce ac viverra ipsum, sed semper nisi. Duis et pulvinar orci. Nam sed arcu nisi. Phasellus quis imperdiet velit. Aenean a luctus tortor, et dapibus diam. Nam vel turpis vel nibh cursus aliquam. Nam id sapien porttitor, condimentum nunc vel, luctus tortor. Fusce vehicula ultrices augue quis egestas. In et turpis lacinia, varius libero sed, sagittis metus. 
+In order to get rid of it just hit:
+
+```
+Ctrl + b
+```
+
+Kablamo! An extra 3cm to fill with your spaghetti code.
+
+
+
+
+## 4. Insert Newline _Before_
+
+Okay so the shortcut 
+```
+Ctrl + return
+```
+is fairly well known and common to many different text editors.
+
+But did you know that if you combine this with the shift key it will insert a newline _before_ your currently selected line.
+
+```
+Ctrl + Shift + return
+```
+
+To be honest this is one that I very seldom use, but its interesting to know.
+
+
+
+
+## 3. Select Next Occurance of Text
+
+Let's say you want to highlight every occurance of the same string throughout your file, for instance renaming a variable.
+
+Your could do a find and replace on that string, but that would be soooooo labourious.
+
+Instead try
+```
+Ctrl + d
+```
+to select the next occurance and then edit it in the desired way.
+
+
+
+## 2. Cycle Through Cursor History
+
+If you've ever found yourself working between two distant locations in a file it can be somewhat of a pain to keep track of the line numbers where you've been working.
+
+Fortunately VSCode keeps track of your cursor location in much the same way that a web browser will remember the pages you visited and in which order.
+
+To cycle to the previous cursor location type
+```
+Alt + Left
+```
+then to go to the next location type
+```
+Alt + Right
+```
+
+
+
+## 1. The Most Satisfying One
+
+Finally once you've made all your changes for the day, pushed to your repository and finished everything.
+
+```
+Ctrl + Shift + w
+```
+
+
+
+## Conclusion
+
+If you want to read more about these, here are some platform specific guides by Microsoft.
+
+[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf),
+[Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf),
+[Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+
+
+
+
+
+
