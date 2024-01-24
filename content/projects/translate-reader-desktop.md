@@ -6,7 +6,7 @@ featured: true
 categories: ["React", "ElectronJS", "Fullstack"]
 ---
 
-# spoooooook
+# translate_reader-desktop
 
 
 [You should be redirected here...](https://github.com/rua-iri/translate_reader-desktop)

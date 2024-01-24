@@ -6,7 +6,7 @@ featured: true
 categories: ["Python", "Cryptography", "AWS"]
 ---
 
-# spoooooook
+# Python Steganography
 
 
 [You should be redirected here...](https://github.com/rua-iri/Double_0_00110111)
