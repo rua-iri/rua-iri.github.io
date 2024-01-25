@@ -13,7 +13,6 @@
       "h1",
       "h2",
       "h3",
-      "h4",
       "head",
       "html",
       "i",
@@ -70,10 +69,12 @@
       "flex-col",
       "flex-none",
       "font-bold",
+      "font-extralight",
       "font-mono",
       "font-normal",
       "font-sans",
       "font-serif",
+      "font-thin",
       "gap-4",
       "h-4",
       "h-6",
@@ -160,10 +161,13 @@
       "translate_reader-desktop",
       "أجگر",
       "استكانة",
+      "تلويص",
       "تو",
       "تو-الناس",
       "سيدا",
-      "كشخة"
+      "كشخة",
+      "ملوص",
+      "ناطر"
     ]
   }
 }

@@ -80,3 +80,23 @@ A word meaning `أدخّن`, derrived by slightly corrupting the word سيجار
 
 
 
+## تلويص
+
+A word I learned recently which supposedly is very specific to Bahrain.
+
+The most familiar way I can describe it is `work that has been half-arsed`.
+
+### مُلَوِّص
+
+The person who does this kind of shoddy work.
+
+A `half arser`...
+
+
+
+## ناطر
+
+
+
+
+
