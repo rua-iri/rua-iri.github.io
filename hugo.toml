@@ -7,7 +7,7 @@ theme = "salinger"
 [params]
 
 author = "rua-iri"
-#googleAnalytics = ""
+googleAnalytics = "G-G0JMN4QTEM"
 twemoji = true
 text404 = "Since the page you were looking for seems like doesn't exist, we <strong>strongly</strong> suggest you to better investigate the URL and/or go back to the <a href=\"/\">home</a>."
 
