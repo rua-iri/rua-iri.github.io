@@ -3,6 +3,10 @@ title: 'Assorted Bahraini Arabic'
 date: 2024-01-24T15:39:45+03:00
 draft: false
 toc: true
+author: "rua-iri"
+tags: ["Arabic", "Bahrain"]
+categories: ["language"]
+featured: true
 ---
 
 # Assorted Bahraini Arabic
@@ -13,8 +17,6 @@ toc: true
 Since I've been living in Bahrain I've been trying to pick up some of the local dialect of Arabic, which is quite different to those with which I was previously familiar.
 
 The dialect has a large number of quirks which distinguish it from those spoken by other Arabs, perhaps the result of the multitude of different cultures who have travelled through or settled here over centuries.
-
-Some of these entries may or may not be exclusive to Bahrain.
 
 The country is culturally and linguistically similar to other gulf countries, in particular Kuwait for some reason, so these words and phrases may not necessarily be unique to Bahrain.
 
@@ -90,12 +92,46 @@ The most familiar way I can describe it is `work that has been half-arsed`.
 
 The person who does this kind of shoddy work.
 
-A `half arser`...
+A `half arser` so to speak...
 
 
 
 ## ناطر
 
+This carries the same meaning as `منتظر`.
+
+It's easy to see how it has been derived by extracting the root `ن ظ ر`, then relaxing the pronunciation of `ظ` to `ط`, and then constructing a form I `اسم الفاعل`.
+
+There is a common phrase used to express frustration with someone who's taking too long, `شنو الناطر؟`,
+
+
+
+## مو
+
+This is *definitely* not exclusive to Bahrain, I believe it's used in most gulf countries, but it's still very important to know.
+
+It's used to negate `جمل فعلية`, the same as `ليس` in فصحى and `مش` in other dialects.
+
+
+
+## واجد
+
+When I first heard this one it really confused me because I assumed that it was just a local variation of `موجود`.
+
+This resulted in some misunderstanding when I would hear someone express something like `في زحمة واجدة`.
+Of course the traffic _exists_, I can see it right in front of me. 
+
+Why even bother expressing something so banal?
+
+Anyway it turns out that `واجد` is just the way of saying `كثير` or `جدا`.
+
+### وايد
+
+Because of the way that the letter `ج` is often silent in some Gulf dialects some people pronounce it this way.
+
+This has led to a very common misunderstanding that this word originated from the English word `wide`, and somehow `wide` became used as the word for `a lot`.
+
+It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the island.
 
 
 

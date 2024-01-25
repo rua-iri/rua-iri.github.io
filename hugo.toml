@@ -42,6 +42,7 @@ keywords = ["simple", "minimal", "clean", "fast", "blog", "portfolio", "responsi
 [params.footer]
 copy = '<a href="https://github.com/rua-iri/" class="link">rua-iri.</a>'
 
+
 [[params.social]]
 name = "github"
 url = "https://github.com/rua-iri/"
