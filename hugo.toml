@@ -3,6 +3,7 @@ languageCode = 'en-gb'
 baseURL = "https://rua-iri.com/"
 title = "rua-iri"
 theme = "salinger"
+enableGitInfo = true
 
 [params]
 
