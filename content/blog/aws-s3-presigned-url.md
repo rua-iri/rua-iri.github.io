@@ -80,9 +80,11 @@ from botocore.exceptions import ClientError # to handle errors that may occur
 
 Also at the top of our code we should create a new Boto3 client to interact with S3. 
 The reason that we declare this outside of any function is that the MicroVM inside which the lambda function runs exists for a short time after the function is run and is reused if it is invoked again in a short time span.
-Any variables that are declared globally in a function, outside of the scope of the lambda handler, will be cached between a function's invocation. 
+Any variables that are declared globally in a function, outside of the scope of the lambda handler, will be cached between a function's invocation.
 
 This means that it is good practice to do things like connecting to a database or creating a Boto3 client outside the lambda handler, as the connection or client can be reused between function invocations, thus increasing the performance and efficiency of the function.
+
+[Check this out](https://docs.aws.amazon.com/lambda/latest/operatorguide/execution-environment.html) for more information
 
 Anyway, do the following...
 

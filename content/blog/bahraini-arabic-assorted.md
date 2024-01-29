@@ -48,7 +48,7 @@ Apparently it originates in the days of British rule in Bahrain when it was comm
 
 Then over time the term `ice tea can` became more and more general in its usage and adopted as a word for a vessel from which one would drink.
 
-So now `استكانة ساي` carries the same meaning as `كاسة شاي`.
+So now `استكانة شاي` carries the same meaning as `كاس شاي`.
 
 I believe Iraq has something similar with their word for rice, but I can't recall the details.
 
@@ -96,7 +96,7 @@ A `half arser` so to speak...
 
 
 
-## ناطر
+## ناطِر
 
 This carries the same meaning as `منتظر`.
 
@@ -114,7 +114,7 @@ It's used to negate `جمل فعلية`, the same as `ليس` in فصحى and `�
 
 
 
-## واجد
+## واجِد
 
 When I first heard this one it really confused me because I assumed that it was just a local variation of `موجود`.
 
@@ -131,7 +131,7 @@ Because of the way that the letter `ج` is often silent in some Gulf dialects so
 
 This has led to a very common misunderstanding that this word originated from the English word `wide`, and somehow `wide` became used as the word for `a lot`.
 
-It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the island.
+It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the island to know in which it occurs.
 
 
 
