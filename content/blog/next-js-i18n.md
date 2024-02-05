@@ -1,7 +1,7 @@
 ---
 title: 'Next Js I18n'
 date: 2024-02-05T08:52:41+03:00
-draft: true
+draft: false
 toc: true
 author: "rua-iri"
 tags: []
@@ -21,7 +21,7 @@ featured: true
 Install the required NextJS library.
 
 ```bash
-npm install next-intl
+npm install -S react-intl
 ```
 
 
@@ -95,14 +95,68 @@ We need to open the the `_app.js` file and wrap the `<Component>` component in t
 
 
 ```javascript
-<IntlProvider locale={locale} messages={messages[locale]}>
-  <div dir={locale === 'ar' ? 'rtl' : 'ltr'} >
-    <Component {...pageProps} />
-  </div>
-</IntlProvider>
+const { locale } = useRouter();
+
+return (
+  <IntlProvider locale={locale} messages={messages[locale]}>
+    <div dir={locale === 'ar' ? 'rtl' : 'ltr'} >
+      <Component {...pageProps} />
+    </div>
+  </IntlProvider>
+)
 ```
 
-The first new element is one provided by the react-intl library, which allows us to specify the site's current locale and pass translated messages down to the pages that require them. The second 
+The first new element is one provided by the react-intl library, which allows us to specify the site's current locale and pass translated messages down to the pages that require them. The second is a `<div>` element I added to set the page's text direction, using a turnary expression to check if the locale is Arabic or not.
+
+
+### Translation
+
+Now with all this configured we need to implement the translation of text strings.
+
+Start by creating the json files which will store our translations.
+
+```bash
+mkdir lang
+touch ar.json en.json
+```
+
+Inside each of those new files we should add a json object containing our translated strings.
+
+```json
+{
+  "page.title": "This is the title of the page"
+}
+```
+
+```json
+{
+  "page.title": "هذا عنوان الصفحة"
+}
+```
+
+
+Then we can import those strings dynamically into a page or component using the `useIntl()` function.
+
+
+```javascript
+import { useIntl } from "react-intl";
+
+export default function Title() {
+
+  const intl = useIntl();
+
+  return (
+    <h1>
+      {intl.formatMessage({id: "page.title"})}
+    </h1>
+  )
+}
+```
+
+
+Now when we alternate between the two different locales the text on the page and the page direction should alter automatically.
+
+
 
 
 
