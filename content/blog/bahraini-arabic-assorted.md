@@ -23,6 +23,23 @@ The country is culturally and linguistically similar to other gulf countries, in
 This article will be a somewhat stream of consciousness collection of tidbits I've learned here and there, which I will update periodically.
 
 
+## لا
+
+Okay, so you might think that the word `لا` is quite straightforward.
+
+It means no, right?
+
+But there is a peculiar way in which people use it here which is the opposite of many other Arabs.
+
+Notice the way that I ended the the sentence before last, well Arabs often use the same expression, `صح` in Aamiyya, however in Bahrain people tend to use `لا` instead for the same purpose.
+
+```
+رحنا قبل أسبوع، لا؟
+```
+
+The use of this word in this context is so ubiquitous here that I've even noticed people who don't speak a lick of Arabic using it to emphasise a point.
+
+
 
 ## سِيدَا
 

@@ -12,9 +12,6 @@ featured: true
 # Next Js I18n
 
 
-## Introduction
-
-
 
 ## Setup
 
@@ -65,8 +62,6 @@ I will map though each of the locales on the router and use them to generate the
         <>
           <Link key={index} href={router.pathname} locale={locale}>
             {locale.toLocaleUpperCase()}
-            &nbsp;
-            {locale == 'en' ? "🇬🇧" : "🇧🇭"}
           </Link>
           <br />
         </>
