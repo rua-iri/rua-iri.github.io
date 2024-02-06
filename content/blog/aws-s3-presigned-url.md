@@ -26,7 +26,7 @@ More information can be found in the [Boto3 Documentation](https://boto3.amazona
 
 So obviously the first step in letting our users upload a file is to give them a form to do so.
 
-```html
+```javascript
 <form onSubmit={handleSubmit}>
     <input 
         type="file" 

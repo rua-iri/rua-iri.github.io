@@ -79,9 +79,6 @@ I will map though each of the locales on the router and use them to generate the
 We only return the link for the language that is not currently in use.
 
 
-<!-- Since Arabic is a language that is written right-to-left we will also need to change the page's `dir` from `ltr` to `rtl`, flipping the orientation of all the elements on the screen. -->
-
-
 To handle the translations of the site I found two libraries that could claimed to offer the features I was looking for; [next-intl](https://next-intl-docs.vercel.app) - which describes itself as an internationalisation library "that gets out of your way" and is specifically designed for NextJS, and [react-intl](https://formatjs.io/) from FormatJS which is a more longstanding alternative for react, but which supports a variety of frameworks.
 
 I'm not sure if this was the best decision, but I decided to go with the latter because it had more stars on Github.
@@ -101,7 +98,7 @@ return (
 )
 ```
 
-The first new element is one provided by the react-intl library, which allows us to specify the site's current locale and pass translated messages down to the pages that require them. The second is a `<div>` element I added to set the page's text direction, using a turnary expression to check if the locale is Arabic or not.
+The first new element is one provided by the react-intl library, which allows us to specify the site's current locale and pass translated messages down to the pages that require them. The second is a `<div>` element I added to set the page's text direction, using a turnary expression to check if the locale is Arabic or not. Since Arabic is a language that is written right-to-left we will also need to change the page's `dir` from `ltr` to `rtl`, flipping the orientation of all the elements on the screen.
 
 
 ### Translation
