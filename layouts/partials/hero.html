@@ -14,7 +14,7 @@
 
       {{with .Content}}<div class="prose balanced ">{{. | safeHTML}}</div>{{end}}
 
-      {{if not (or (.Context.IsHome) (.Context.Params.hideMeta)) }}
+      {{if not (or (.Context.IsHome) (.Context.Params.hideMeta) (not .Context.IsPage)) }}
       {{partial "meta.html" .Context }}
 
       <div class="flex">
