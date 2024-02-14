@@ -1,41 +1,55 @@
-<!-- partial "hero.html" (dict "Title" "TITOLO" "Subtitle" "val" "Content" "val" "Supertitle" "val" "Large" false "Context" .) CASE SENSITIVE-->
-<div class=" bg-base-200 {{with .Large}} min-h-[400px] mb-9{{else}} mb-7 {{end}} place-items-start">
-  <div class="feed w-full py-24">
-    <div class=" {{with .Large}} py-5 space-y-5 {{else}} space-y-3 {{end}}">
+<div>
+  <!-- partial "hero.html" (dict "Title" "TITOLO" "Subtitle" "val" "Content" "val" "Supertitle" "val" "Large" false "Context" .) CASE SENSITIVE-->
+  <div class="bg-base-200 {{with .Large}} min-h-[400px] {{else}} {{end}} place-items-start">
+    <div class="feed w-full py-24">
+      <div class=" {{with .Large}} py-5 space-y-5 {{else}} space-y-3 {{end}}">
 
-      {{with .Supertitle}}<p class="font-mono uppercase">{{. | safeHTML}}</p>{{end}}
+        {{with .Supertitle}}<p class="font-mono uppercase">{{. | safeHTML}}</p>{{end}}
 
-      <h1 class=" {{with .Large}} text-6xl {{else}} text-4xl {{end}} font-bold font-serif">
-        {{with .Title}} {{ . | safeHTML }} {{end}}
-      </h1>
+        <h1 class=" {{with .Large}} text-6xl {{else}} text-4xl {{end}} font-bold font-serif">
+          {{with .Title}} {{ . | safeHTML }} {{end}}
+        </h1>
 
-      {{if .Subtitle}}<p class="font-mono balanced {{if .Large }} text-xl {{else}} text-lg {{end}}   uppercase">
-        {{.Subtitle | safeHTML }}</p>{{end}}
 
-      {{with .Content}}<div class="prose balanced ">{{. | safeHTML}}</div>{{end}}
+        {{if .Subtitle}}<p class="font-mono balanced {{if .Large }} text-xl {{else}} text-lg {{end}}   uppercase">
+          {{.Subtitle | safeHTML }}</p>{{end}}
 
-      {{if not (or (.Context.IsHome) (.Context.Params.hideMeta) (not .Context.IsPage)) }}
-      {{partial "meta.html" .Context }}
+        {{with .Content}}<div class="prose balanced ">{{. | safeHTML}}</div>{{end}}
 
-      <div class="flex">
-        <h2 class="text-lg font-extralight font-serif">
-          {{ page.WordCount }} Words
-        </h2>
-        &nbsp;|&nbsp;
-        <h2 class="text-lg font-extralight font-serif">
-          {{ page.ReadingTime }} Minutes
-        </h2>
+        {{if not (or (.Context.IsHome) (.Context.Params.hideMeta) (not .Context.IsPage)) }}
+        {{partial "meta.html" .Context }}
+
+        <div class="flex">
+          <h2 class="text-lg font-extralight font-serif">
+            {{ page.WordCount }} Words
+          </h2>
+          &nbsp;|&nbsp;
+          <h2 class="text-lg font-extralight font-serif">
+            {{ page.ReadingTime }} Minutes
+          </h2>
+        </div>
+
+        {{end}}
+
+        {{if and (.Context.IsHome) (eq .Context.Site.Params.showSocialOnHomepage true)}}
+
+
+        {{partial "socials.html" (dict "Context" .Context "OnlyFeatured" true)}}
+
+        {{ end }}
+
+
+
       </div>
-
-      {{end}}
-
-      {{if and (.Context.IsHome) (eq .Context.Site.Params.showSocialOnHomepage true)}}
-
-
-      {{partial "socials.html" (dict "Context" .Context "OnlyFeatured" true)}}
-
-      {{ end }}
-
     </div>
   </div>
+
+  <div class="curve-box">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="fill-base-200"></path>
+    </svg>
+  </div>
+
 </div>

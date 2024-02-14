@@ -66,7 +66,7 @@ For instance the listener would understand which `قلم` was being talked about
 
 
 
-
+        
 ## الجنسية
 
 
