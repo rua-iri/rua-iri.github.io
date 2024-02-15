@@ -44,7 +44,7 @@ This method will by default use sub-path routing, meaning that the user's desire
 To access the user's current locale, we can use the router object by calling the `useRouter()` hook.
 
 
-```javascript
+```jsx
 import { useRouter } from "next/router";
 const router = useRouter();
 ```
@@ -54,7 +54,7 @@ We can use this to create a link that allows the user to navigate to the current
 I will map though each of the locales on the router and use them to generate the link.
 
 
-```javascript
+```jsx
 <div>
   {router.locales.map((locale, index) => {
     if (locale !== router.locale) {
@@ -86,7 +86,7 @@ I'm not sure if this was the best decision, but I decided to go with the latter 
 We need to open the the `_app.js` file and wrap the `<Component>` component in two new elements.
 
 
-```javascript
+```jsx
 const { locale } = useRouter();
 
 return (
