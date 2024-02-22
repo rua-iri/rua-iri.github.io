@@ -1,12 +1,17 @@
 ---
 title: 'Argaam 🔢'
-date: 2024-01-21T00:28:12+03:00
+date: 2024-02-22T00:00:00+03:00
 draft: false
+toc: true
+author: "rua-iri"
+tags: []
+categories: []
+featured: true
 ---
 
 # Argaam
 
-[You should be redirected here...](https://github.com/rua-iri/argaam)
+[You should be redirected here...](https://argaam.rua-iri.com/)
 
 
-{{< redirect href="https://github.com/rua-iri/argaam" >}}
+{{< redirect href="https://argaam.rua-iri.com/" >}}
