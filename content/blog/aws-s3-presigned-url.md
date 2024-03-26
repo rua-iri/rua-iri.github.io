@@ -161,7 +161,7 @@ The `response` variable returned by this function is a dictionary containing two
 Back on the frontend (see what I did there?), inside the same `handleSubmit()` function [we declared above](#create-a-form-for-uploads), we should take the response returned by the lambda function and use its data to send the file to the s3 bucket.
 
 We instantiate a new `FormData` object, then iterate through each of the `fields` returned in the response from the backend and use the it's keys and respective values to populate the `FormData`.
-Then we append the file from earlier with the key `file` to the object and send it to the s3 URL with the `FormData` as the request's body
+Then we append the file from earlier with the key `file` to the object and send it to the s3 URL with the `FormData` as the request's body.
 
 ```javascript
 presignedFormData = new FormData();
