@@ -8,11 +8,8 @@ author: "rua-iri"
 tags: []
 categories: []
 featured: true
+externalLink: "https://argaam.rua-iri.com/"
 ---
 
 # Argaam
 
-[You should be redirected here...](https://argaam.rua-iri.com/)
-
-
-{{< redirect href="https://argaam.rua-iri.com/" >}}
