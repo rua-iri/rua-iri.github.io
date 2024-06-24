@@ -1,5 +1,5 @@
 ---
-title: 'Oldnews 📰'
+title: 'Oldnews'
 date: 2024-02-12T00:08:48+03:00
 draft: false
 toc: true
