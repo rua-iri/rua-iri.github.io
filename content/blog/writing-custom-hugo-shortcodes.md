@@ -67,19 +67,19 @@ The `src` attributes for the images are passed to the shortcode as parameters
 
 ```markdown
 {{</* grid_2x2 
-image2="/images/hugo_shortcodes/image1.webp" 
-image1="/images/hugo_shortcodes/image2.webp" 
-image3="/images/hugo_shortcodes/image3.webp" 
-image4="/images/hugo_shortcodes/image4.webp"
+image1="/images/hugo_shortcodes/sample_image2.webp" 
+image2="/images/hugo_shortcodes/sample_image1.webp" 
+image3="/images/hugo_shortcodes/sample_image3.webp" 
+image4="/images/hugo_shortcodes/sample_image4.webp"
 */>}}
 ```
 
 
 {{< grid_2x2 
-image2="/images/hugo_shortcodes/image1.webp" 
-image1="/images/hugo_shortcodes/image2.webp" 
-image3="/images/hugo_shortcodes/image3.webp" 
-image4="/images/hugo_shortcodes/image4.webp"
+image2="/images/hugo_shortcodes/sample_image1.webp" 
+image1="/images/hugo_shortcodes/sample_image2.webp" 
+image3="/images/hugo_shortcodes/sample_image3.webp" 
+image4="/images/hugo_shortcodes/sample_image4.webp"
 >}}
 
 
