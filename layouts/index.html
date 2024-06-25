@@ -2,7 +2,7 @@
 {{ $hero := (cond (ne .Params.title nil) .Params.title .Site.Title) }}
 {{partial "hero.html" (dict "Title" $hero "Subtitle" .Params.description "Large" true "Context" . )}}
 
-<div class="space-y-20 md:columns-2">
+<div class="space-y-20 md:columns-2 md:mx-24">
   {{range $index, $taxonomy := .Site.Sections}}
   <div class="feed md:break-inside-avoid">
     <h2 class="text-4xl font-bold font-serif">
