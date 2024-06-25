@@ -33,9 +33,9 @@ It's name is derived from `عَهْد` meaning knowledge.
 
 In this category the `ال` refers back to something that has already been mentioned (`مذكور`) in the sentence.
 
-```
+{{< text_ar >}}
 شَاهَدتُ مُسَلسَلٌ وأَحبَبتُ المُسَلسَل
-```
+{{< /text_ar >}}
 
 In this example the definite `المسلسل` refers back to the `مسلسل` that the speaker mentions watching.
 
@@ -47,9 +47,9 @@ The name for this category comes from the word `ذِهْن`, meaning `mind` or `
 This is because the speaker and the listener share some kind of prior knowledge which provides the context for which the definiteness of a word makes sense.
 
 
-```
+{{< text_ar >}}
 بَعدَ قَلِيل سأَذهَبُ إِلَى المَكتَب
-```
+{{< /text_ar >}}
 
 In this sentence the speaker would not specify the definite `المكتب` if the listener was not already aware of which office was being talked about, for instance by knowing where it was that the speaker worked.
 
@@ -58,9 +58,9 @@ In this sentence the speaker would not specify the definite `المكتب` if th
 
 In this category the listener understands what the definite word refers to because of its physical presence (`حضور`).
 
-```
+{{< text_ar >}}
 خُذ القَلَم
-```
+{{< /text_ar >}}
 
 For instance the listener would understand which `قلم` was being talked about because of its presence in the room or by the speaker gesturing towards it while uttering the sentence.
 

@@ -33,9 +33,10 @@ But there is a peculiar way in which people use it here which is the opposite of
 
 Notice the way that I ended the the sentence before last, well Arabs often use the same expression, `صح` in Aamiyya, however in Bahrain people tend to use `لا` instead for the same purpose.
 
-```
+{{< text_ar >}}
 رحنا قبل أسبوع، لا؟
-```
+{{< /text_ar >}}
+
 
 The use of this word in this context is so ubiquitous here that I've even noticed people who don't speak a lick of Arabic using it to emphasise a point.
 
