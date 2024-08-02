@@ -1,5 +1,5 @@
 ---
-title: 'Systemd Unit Files'
+title: 'How to write a systemd unit file'
 date: 2024-08-01T10:23:09+03:00
 draft: false
 toc: true
@@ -7,6 +7,7 @@ author: "rua-iri"
 tags: []
 categories: []
 featured: true
+featuredImage: "/images/systemd-unit-files/systemd-logo.webp"
 ---
 
 # How to write a systemd unit file

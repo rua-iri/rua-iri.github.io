@@ -154,3 +154,17 @@ It is particularly common among Kuwaitis and some Bahraini dialects, although I 
 
 
 
+## خوش
+
+Meaning great / the best. 
+
+e.g. `خوش فكرة` - great idea
+
+`خوش سيارة` - nice car
+
+
+
+
+
+
+
