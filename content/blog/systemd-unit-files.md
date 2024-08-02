@@ -7,6 +7,7 @@ author: "rua-iri"
 tags: []
 categories: []
 featured: true
+featuredImage: "/images/systemd-unit-files/systemd-logo.webp"
 ---
 
 # How to write a systemd unit file

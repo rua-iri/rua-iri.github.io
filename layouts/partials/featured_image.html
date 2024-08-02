@@ -1,4 +1,9 @@
-
+{{ if .Params.FeaturedImage }}
 <div>
-    <img src="/images/hugo_shortcodes/sample_image1.webp" alt="">
+    <img 
+    src="{{ .Params.FeaturedImage }}" 
+    alt="{{ .Params.Title }} Image" 
+    class="h-100 max-w-full"
+    >
 </div>
+{{ end }}
