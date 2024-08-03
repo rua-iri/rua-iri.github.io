@@ -22,10 +22,16 @@
 
     {{$pages := (where $taxonomy.RegularPages ".Params.featured" "=" true)}}
     {{if eq .Site.Params.showOnlyFeaturedPost false}}
-    {{$pages = $taxonomy.RegularPages}}
+      {{$pages = $taxonomy.RegularPages}}
     {{end}}
-    {{range $pages}}
-    {{.Render "li" }} {{end}}
+    {{range first 5 $pages}}
+      {{.Render "li" }}
+    {{end}}
+    <a href="/{{$taxonomy.Section}}" class="p-4 -m-3 flex justify-between gap-4 items-center hover:text-secondary hover:bg-base-200 rounded-lg">
+      See All
+      ({{ len (where .Site.RegularPages "Section" "==" $taxonomy.Section) }})
+      <i class="fa-solid fa-arrow-right-long"></i>
+    </a>
   </div>
   {{end}}
 </div>
