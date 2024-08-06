@@ -1,20 +1,18 @@
 
 .curve-box {
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-  
-  .curve-box svg {
-    position: relative;
-    display: block;
-    width: calc(130% + 1.3px);
-    height: 120px;
-  }
-  
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
-  .debug {
-    outline: 1px solid red;
-  }
+.curve-box svg {
+  position: relative;
+  display: block;
+  width: calc(130% + 1.3px);
+  height: 120px;
+}
 
-  
+
+.debug {
+  outline: 1px solid red;
+}
