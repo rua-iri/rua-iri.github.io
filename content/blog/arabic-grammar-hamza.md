@@ -26,7 +26,7 @@ Anecdotally, a lecturer at university once told us that "most Arabs" don't compl
 
 
 
-<!-- ## Hierarchy of Vowels -->
+## Hierarchy of Vowels
 
 Not only can a hamza appear in isolation (`ء`), it can also be appended to vowels.
 
