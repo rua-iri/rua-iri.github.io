@@ -7,11 +7,7 @@ author: "rua-iri"
 tags: []
 categories: []
 featured: true
+externalLink: ""
 ---
 
 # {{ replace .File.ContentBaseName "-" " " | title }}
-
-[You should be redirected here...](#)
-
-
-<!-- {{< redirect href="#" >}} -->
