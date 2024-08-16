@@ -1,3 +1,4 @@
+
 <a 
 {{ if .Params.externallink }} 
   href="{{.Params.externallink}}" target="_blank" 
@@ -7,40 +8,43 @@
 class="article-link">
   <div class="text-lg max-w-sm {{with .Params.cover}}w-2/3{{end}} balanced">
     <div class="text-[0.7rem] space-x-5 font-sans capitalize">
+      
       {{with .Params.Categories}}
-
-      <i class="fa-regular fa-folder-open icon w-4 h-4"></i>
-
-
-      {{$n := len .}}
-      {{range $ind, $val := .}}
-      {{ $val }}
-      {{- if lt $ind (sub $n 1) -}},
-      {{end}}
-      {{end}}
+        <i class="fa-regular fa-folder-open icon w-4 h-4"></i>
+        {{$n := len .}}
+        {{range $ind, $val := .}}
+          {{ $val }}
+          {{- if lt $ind (sub $n 1) -}}
+          ,
+          {{end}}
+        {{end}}
       {{end}}
 
       <i class="fa-regular fa-calendar icon w-4 h-4"></i>
-
       {{$myFormat := "January 2, 2006"}}
       {{with .Site.Params.DateFormat}}
         {{$myFormat = .}}
       {{end}}
       {{ dateFormat $myFormat .Date }}
+
     </div>
 
     <div class="font-mono block uppercase">
-
-      {{with .Params.Description}} {{.}} {{else}} {{.Title}} {{end}}
-
+      {{with .Params.Description}}
+        {{.}}
+      {{else}}
+        {{.Title}}
+      {{end}}
     </div>
+
   </div>
   {{with .Params.cover}}
-  <div
-    class="w-1/3 md:w-1/4 h-24 rounded-lg bg-contain bg-center	
-    {{with $.Site.Params.FilterCoverImages }} 
-    grayscale dark:brightness-50 brightness-95 
-    {{end}}"
-    style="background-image: url({{.}})"></div>
+    <div
+      class="w-1/3 md:w-1/4 h-24 rounded-lg bg-contain bg-center	
+      {{with $.Site.Params.FilterCoverImages }} 
+      grayscale dark:brightness-50 brightness-95 
+      {{end}}"
+      style="background-image: url({{.}})">
+    </div>
   {{end}}
 </a>
