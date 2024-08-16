@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+{{ partial "hero.html" (dict "Title" .Title "Content" (.Content | safeHTML) ) }}
+
+<div class="feed">
+
+  {{ range .RegularPages.GroupByDate "January 2006" }}
+
+    <div class="text-xl">
+      {{.Key}}
+    </div>
+
+    {{ range .Pages }}
+      {{ .Render "li"}}
+    {{ end }}
+
+  {{ end }}
+
+  {{.Render "list"}}
+</div>
+
+{{ end }}
