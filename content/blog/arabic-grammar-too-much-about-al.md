@@ -70,14 +70,42 @@ For instance the listener would understand which `قلم` was being talked about
 ## الجنسية
 
 
-### لتعريف الحقيقة
+### 1. لتعريف الحقيقة
+
+This category relates to the general essence (`الحقيقة`) of something.
+
+{{< text_ar >}}
+أحب زيارة المدن
+{{< /text_ar >}}
+
+In this example the speaker does not mean that they like to visit every city in the world or that there are no cities that they don't like, but that generally they like to visit cities.
 
 
 
-### لاستغراق الأفراد
+### 2. لاستغراق الأفراد
+
+Used in cases where all individual members of a group are covered by this.
+
+The only example I could find to demonstrate this is from the end of [a Quranic verse ](https://quran.com/an-nisa/28).
+
+{{< text_ar>}}
+يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَـٰنُ ضَعِيفًۭا
+{{< /text_ar>}}
+
+Even though the word `إنسان` is singular the use of `ال` to precede it indicates that the sentence applies to everyone who is an `إنسان`.
 
 
-### لاستغراق خصائص الأفراد
+
+### 3. لاستغراق خصائص الأفراد
+
+This category applies to cases where a characteristic in a person is highlighted.
+
+{{< text_ar>}}
+هو الرجل كرماً
+{{< /text_ar>}}
+
+In this example we are saying that with respect to his generosity this man is particularly noteworthy.
+
 
 
 
