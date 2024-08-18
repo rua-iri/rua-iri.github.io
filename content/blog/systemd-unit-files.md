@@ -40,8 +40,21 @@ Documentation=https://example.com (Location of documentation)
 Requires=basic.target (Services which must be running first)
 Wants=basic.target (Similar to requires but more robust)
 Conflicts=rescue.service (Services which should not be running at the same time)
+
+[Service]
+User=username
+WorkingDirectory=/home/username/path/to/working/directory
+ExecStart=/bin/program myprogram.py
+
+[Timer]
+OnCalendar=Mon,Tue *-*-01..04 12:00:00
+
+[Install]
+WantedBy=multi-user.target
 ```
 
+
+The Arch Wiki has a good explanation of how to write a timer for your service, [which you can read here](https://wiki.archlinux.org/title/Systemd/Timers)
 
 In order to view the unit file for a particular service, as well as its location, run:
 ```bash
