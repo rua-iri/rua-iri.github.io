@@ -53,13 +53,34 @@ OnCalendar=Mon,Tue *-*-01..04 12:00:00
 WantedBy=multi-user.target
 ```
 
-
-The Arch Wiki has a good explanation of how to write a timer for your service, [which you can read here](https://wiki.archlinux.org/title/Systemd/Timers)
-
 In order to view the unit file for a particular service, as well as its location, run:
 ```bash
 systemctl cat <service_name>
 ```
+
+
+
+### Scheduling
+
+In order to run a service on a schedule you should create a separate file in the same directory but with the extension `.timer`.
+
+This file should be similar to the service file as outlined above, but with a new `[Timer]` section.
+
+```ini
+[Unit]
+Description=Description of the timer
+
+[Timer]
+OnCalendar=*-*-* 12:00:00
+
+[Install]
+WantedBy=timers.target
+```
+
+
+The Arch Wiki has a good explanation of how to write a timer for your service, [which you can read here](https://wiki.archlinux.org/title/Systemd/Timers)
+
+
 
 
 ## Writing & Editing
