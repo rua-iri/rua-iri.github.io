@@ -73,3 +73,16 @@ pre {
 .debug {
   outline: 1px solid red;
 }
+
+#TableOfContents>ul {
+  @apply font-semibold;
+}
+
+#TableOfContents>ul>li {
+  @apply mt-3;
+}
+
+#TableOfContents>ul>li>ul {
+  @apply font-normal ms-3;
+}
+
