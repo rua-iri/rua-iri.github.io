@@ -2,16 +2,15 @@
   
   
   {{ if ne .Date nil }}
-  <i class="fa-regular fa-calendar icon w-4 h-4"></i>
-      Published on
-    {{$myFormat := "January 2, 2006"}} {{- with .Site.Params.DateFormat}}
-    {{$myFormat = .}} {{- end -}} {{- dateFormat $myFormat .Date -}}
-    {{- if ne .Lastmod nil -}}
-    {{- if and (ne .Lastmod .Date) (gt .Lastmod .Date) -}}
-    , updated on {{ dateFormat $myFormat .Lastmod -}}.
-    {{else}}.
-{{ end }}
-
+    <i class="fa-regular fa-calendar icon w-4 h-4"></i>
+        Published on
+      {{$myFormat := "January 2, 2006"}} {{- with .Site.Params.DateFormat}}
+      {{$myFormat = .}} {{- end -}} {{- dateFormat $myFormat .Date -}}
+      {{- if ne .Lastmod nil -}}
+        {{- if and (ne .Lastmod .Date) (gt .Lastmod .Date) -}}
+        , updated on {{ dateFormat $myFormat .Lastmod -}}.
+        {{else}}.
+        {{ end }}
       {{end}}
   {{end}}
 
@@ -23,8 +22,13 @@
   {{with .Params.Categories}}
     under 
     
-    {{$n := len .}} {{range $ind, $val := .}}  <a href="/categories/{{$val | urlize}}" class="link">{{ $val }}</a>  {{- if lt $ind (sub $n
-    1) -}},{{end}} {{end}}
+    {{$n := len .}} 
+    {{range $ind, $val := .}}  
+    <a href="/categories/{{$val | urlize}}" class="link">{{ $val }}</a>  
+      {{- if lt $ind (sub $n 1) -}}
+      ,
+      {{end}} 
+    {{end}}
   {{ end }} 
   
   
