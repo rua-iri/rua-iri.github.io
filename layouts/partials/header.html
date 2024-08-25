@@ -2,10 +2,10 @@
 
 <div class="navbar bg-transparent backdrop-filter backdrop-blur-sm z-10 fixed top-0">
   <div class="flex-1">
-    <a href="/" class="ms-2 text-lg font-bold flex" aria-label="Logo Link to the home">
-      {{/*  {{ partial "svgs/header_logo.html" . }}  */}}
-      <img src="/apple-touch-icon.png" alt="" class="h-14 w-14">
-      {{with .Site.Params.logoLabel}}<div class="ml-3 my-auto pl-3">{{.}}</div>{{end}}
+    <a href="/" class="ms-2 text-lg font-bold flex relative group" aria-label="Logo Link to the home">
+      <div class="transition ease-in-out opacity-0 group-hover:opacity-40 absolute inset-0 bg-[#d65d0e] rounded-lg blur-2xl"></div>
+      <img src="/apple-touch-icon.png" alt="" class="h-14 w-14 relative">
+      {{with .Site.Params.logoLabel}}<div class="ml-3 my-auto pl-3 font-bold font-serif">{{.}}</div>{{end}}
     </a>
   </div>
   <div class="flex-none">
