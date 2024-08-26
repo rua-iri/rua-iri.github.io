@@ -163,6 +163,11 @@ e.g. `خوش فكرة` - great idea
 `خوش سيارة` - nice car
 
 
+## عيال
+
+Family/families
+
+Obviously it is a highly distorted version of the `عائلة` which exists in fusha and other dialects.
 
 
 
