@@ -163,12 +163,23 @@ e.g. `خوش فكرة` - great idea
 `خوش سيارة` - nice car
 
 
+
 ## عيال
 
 Family/families
 
-Obviously it is a highly distorted version of the `عائلة` which exists in fusha and other dialects.
+Obviously it is a highly distorted version of the `عائلة`/`عائلات` which exists in fusha and other dialects.
 
+
+
+## ريوق
+
+Breakfast
+
+
+### يتريّق
+
+The form V verb derived from the noun above
 
 
 
