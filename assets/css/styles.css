@@ -86,3 +86,10 @@ pre {
   @apply font-normal ms-3;
 }
 
+
+.code-display {
+  height: 300px;
+  width: 400px;
+}
+
+

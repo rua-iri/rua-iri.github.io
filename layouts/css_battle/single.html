@@ -1,0 +1,35 @@
+{{ define "main" }}
+    {{with .Params.hideTitle}}
+<div class="py-12"></div>
+{{else}}
+    {{ $title := .Title}}
+    {{ partial "hero.html" (dict "Title" .Title "Subtitle" .Params.Description "Context" .) }}
+{{end}}
+
+
+<div class="grid sm:grid-cols-2 gap-4 mx-3 lg:mx-32 ">
+
+    <textarea disabled class="textarea textarea-bordered w-full cursor-move h-96 sm:h-full">
+        {{- .Content -}}
+    </textarea>
+
+    <div class="mockup-browser bg-base-300 border">
+        <div class="mockup-browser-toolbar">
+        <div class="input">https://rua-iri.com{{ .RelPermalink }}</div>
+        </div>
+        <div class="bg-base-200 flex justify-center px-4 py-16">
+            <div class="relative">
+            <iframe class="code-display"></iframe>
+        </div>
+
+            <script>
+                const pageContent = "{{ .Content }}";
+                const iFrame = document.querySelector('iframe');
+                iFrame.contentDocument.write(pageContent);
+            </script>
+        </div>
+    </div>
+
+</div>
+
+{{ end }}
