@@ -85,7 +85,7 @@ target = "$1"
 [markup.goldmark.renderer]
 unsafe = true
 [markup.highlight]
-style = 'base16-snazzy'
+style = 'gruvbox'
 
 
 
