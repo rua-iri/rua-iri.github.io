@@ -1,5 +1,5 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: '{{ replace .File.ContentBaseName "-" "/" | title }}'
 date: {{ .Date }}
 draft: true
 author: "rua-iri"
@@ -9,4 +9,4 @@ charCount: 0
 score: 0
 ---
 
-# {{ replace .File.ContentBaseName "-" " " | title }}
+
