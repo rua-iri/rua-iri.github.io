@@ -40,7 +40,7 @@ copy = '<a href="https://github.com/rua-iri/" class="link">rua-iri.</a>'
 [[params.social]]
 name = "github"
 url = "https://github.com/rua-iri/"
-icon = "fa-brands fa-github"
+icon = "fa-brands fa-github fa-4x"
 featured = true # true to be displayed in the home hero.
 
 
@@ -86,7 +86,6 @@ target = "$1"
 unsafe = true
 [markup.highlight]
 style = 'base16-snazzy'
-
 
 
 
