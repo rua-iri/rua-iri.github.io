@@ -4,51 +4,67 @@
       <div class=" {{with .Large}} py-5 space-y-5 {{else}} space-y-3 {{end}} relative">
 
         {{with .Supertitle}}
-        <p class="font-mono uppercase">
-          {{. | safeHTML}}
-        </p>
+          <p class="font-mono uppercase">
+            {{. | safeHTML}}
+          </p>
         {{end}}
 
         <h1 class=" {{with .Large}} text-6xl {{else}} text-4xl {{end}} font-bold font-serif {{ if .Context.IsHome }}transform origin-top-left -rotate-12 translate-y-5{{ end }}">
           {{with .Title}} {{ . | safeHTML }} {{end}}
         </h1>
 
-
         {{if .Subtitle}}
-        <p class="font-mono balanced {{if .Large }} text-xl {{else}} text-lg {{end}}   uppercase">
-          {{.Subtitle | safeHTML }}
-        </p>
+          <p class="font-mono balanced {{if .Large }} text-xl {{else}} text-lg {{end}}   uppercase">
+            {{.Subtitle | safeHTML }}
+          </p>
         {{end}}
 
         {{with .Content}}<div class="prose balanced ">{{. | safeHTML}}</div>{{end}}
 
-        {{if not (or (.Context.IsHome) (.Context.Params.hideMeta) (not .Context.IsPage)) }}
-        {{partial "meta.html" .Context }}
-
-        <div class="flex">
-          <h2 class="text-lg font-extralight font-serif">
-            {{ page.WordCount }} Words
-          </h2>
-          &nbsp;|&nbsp;
-          <h2 class="text-lg font-extralight font-serif">
-            {{ page.ReadingTime }} Minutes
-          </h2>
-        </div>
-
+        {{if not (or (.Context.IsHome) (.Context.Params.hideMeta) (eq page.Section "css_battle") (not .Context.IsPage)) }}
+          {{partial "meta.html" .Context }}
+          
+          <div class="flex">
+            <h2 class="text-lg font-extralight font-serif">
+              {{ page.WordCount }} Words
+            </h2>
+            &nbsp;|&nbsp;
+            <h2 class="text-lg font-extralight font-serif">
+              {{ page.ReadingTime }} Minutes
+            </h2>
+          </div>
         {{end}}
 
-        {{if and (.Context.IsHome) (eq .Context.Site.Params.showSocialOnHomepage true)}}
-
-
-        {{partial "socials.html" (dict "Context" .Context "OnlyFeatured" true)}}
-
-        <div class="avatar absolute contrast-125 top-0 right-0">
-          <div class="w-32 sm:w-52 rounded-xl shadow-md transform origin-top-left rotate-6">
-            <img src="https://avatars.githubusercontent.com/u/117874491" alt="rua-iri avatar">
+        {{ if and (eq page.Section "css_battle") (.Context.Params.Score) }}
+          <div class="stats shadow">
+            <div class="stat">
+              <div class="stat-figure text-secondary">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="stat-title">Score</div>
+              <div class="stat-value">
+                {{.Context.Params.Score}}
+              </div>
+            </div>
+            <div class="stat">
+              <div class="stat-figure text-secondary">
+                <i class="fas fa-font"></i>
+              </div>
+              <div class="stat-title">Characters</div>
+              <div class="stat-value">
+                {{.Context.Params.CharCount}}
+              </div>
+            </div>
           </div>
-        </div>
+        {{ end }}
 
-
+        {{if and (.Context.IsHome) (eq .Context.Site.Params.showSocialOnHomepage true)}}
+          {{partial "socials.html" (dict "Context" .Context "OnlyFeatured" true)}}
+          <div class="avatar absolute contrast-125 top-0 right-0">
+            <div class="w-32 sm:w-52 rounded-xl shadow-md transform origin-top-left rotate-6">
+              <img src="https://avatars.githubusercontent.com/u/117874491" alt="rua-iri avatar">
+            </div>
+          </div>
         {{ end }}
 
       </div>
