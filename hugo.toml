@@ -30,7 +30,7 @@ filterCoverImages = true
 
 [params.meta]
 title = "rua-iri personal website built with Hugo"
-description = "rua-iri's website"
+description = "rua-iri's website with blogs and code and fun"
 keywords = ["simple", "minimal", "clean", "fast", "blog", "portfolio", "responsive", "twemoji", "recursion", "section", "tailwind", "daisyui"]
 
 [params.footer]
