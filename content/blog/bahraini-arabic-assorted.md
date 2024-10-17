@@ -182,5 +182,15 @@ Breakfast
 The form V verb derived from the noun above
 
 
+## إنزين
+
+This is an extremely useful word which, as far as I'm aware, is used exclusively in Bahrain.
+
+It's a filler word which can be variously used to mean; "so", "continue", "then".
+
+It's so useful in fact that I have observed even non-Bahrainis using it in their regular speech.
+
+
+
 
 
