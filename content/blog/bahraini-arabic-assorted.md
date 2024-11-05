@@ -11,8 +11,7 @@ featured: true
 
 # Assorted Bahraini Arabic
 
-
-## Introduction 
+## Introduction
 
 Since I've been living in Bahrain I've been trying to pick up some of the local dialect of Arabic, which is quite different to those with which I was previously familiar.
 
@@ -21,7 +20,6 @@ The dialect has a large number of quirks which distinguish it from those spoken 
 The country is culturally and linguistically similar to other gulf countries, in particular Kuwait for some reason, so these words and phrases may not necessarily be unique to Bahrain.
 
 This article will be a somewhat stream of consciousness collection of tidbits I've learned here and there, which I will update periodically.
-
 
 ## لا
 
@@ -37,10 +35,7 @@ Notice the way that I ended the the sentence before last, well Arabs often use t
 رحنا قبل أسبوع، لا؟
 {{< /text_ar >}}
 
-
 The use of this word in this context is so ubiquitous here that I've even noticed people who don't speak a lick of Arabic using it to emphasise a point.
-
-
 
 ## سِيدَا
 
@@ -50,13 +45,9 @@ It is akin to `قدام` in other dialects.
 
 Apparently it originates with Hindi or something.
 
-
-
 ## كَشْخَة
 
 I gather that this is like fancy or refined but I'm not 100% certain.
-
-
 
 ## اِستِكَانِة
 
@@ -71,8 +62,6 @@ So now `استكانة شاي` carries the same meaning as `كاس شاي`.
 I believe Iraq has something similar with their word for rice, but I can't recall the details.
 
 Anyway, it's a good story, but I'm somewhat skeptical.
-
-
 
 ## تو
 
@@ -92,13 +81,9 @@ I'm not even sure how it comes about, but it's something like too early for the 
 
 Sometimes with عامية it's a good idea not to overthink things.
 
-
-
 ## أجگّر
 
 A word meaning `أدخّن`, derrived by slightly corrupting the word سيجارة.
-
-
 
 ## تلويص
 
@@ -112,8 +97,6 @@ The person who does this kind of shoddy work.
 
 A `half arser` so to speak...
 
-
-
 ## ناطِر
 
 This carries the same meaning as `منتظر`.
@@ -122,22 +105,18 @@ It's easy to see how it has been derived by extracting the root `ن ظ ر`, then
 
 There is a common phrase used to express frustration with someone who's taking too long, `شنو الناطر؟`,
 
-
-
 ## مو
 
 This is *definitely* not exclusive to Bahrain, I believe it's used in most gulf countries, but it's still very important to know.
 
 It's used to negate `جمل فعلية`, the same as `ليس` in فصحى and `مش` in other dialects.
 
-
-
 ## واجِد
 
 When I first heard this one it really confused me because I assumed that it was just a local variation of `موجود`.
 
 This resulted in some misunderstanding when I would hear someone express something like `في زحمة واجدة`.
-Of course the traffic _exists_, I can see it right in front of me. 
+Of course the traffic *exists*, I can see it right in front of me.
 
 Why even bother expressing something so banal?
 
@@ -151,18 +130,13 @@ This has led to a very common misunderstanding that this word originated from th
 
 It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the island to know in which it occurs.
 
-
-
-
 ## خوش
 
-Meaning great / the best. 
+Meaning great / the best.
 
 e.g. `خوش فكرة` - great idea
 
 `خوش سيارة` - nice car
-
-
 
 ## عيال
 
@@ -170,17 +144,20 @@ Family/families
 
 Obviously it is a highly distorted version of the `عائلة`/`عائلات` which exists in fusha and other dialects.
 
-
-
 ## ريوق
 
 Breakfast
-
 
 ### يتريّق
 
 The form V verb derived from the noun above
 
+## إنزين
 
+This is an extremely useful word which, as far as I'm aware, is used exclusively in Bahrain.
 
+It's a filler word which can be variously used to mean; "so", "continue", "then".
 
+It's so useful in fact that I have observed even non-Bahrainis using it in their regular speech.
+
+It's not unlike the use of "ماشي" in other dialects.
