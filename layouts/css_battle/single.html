@@ -3,6 +3,9 @@
 {{else}} {{ $title := .Title}} {{ partial "hero.html" (dict "Title" .Title
 "Subtitle" .Params.Description "Context" .) }} {{end}}
 
+<div class="my-5">
+    <img src="{{.Params.featuredImage}}" alt="{{.Title}} image" />
+</div>
 
 <div class="grid sm:grid-cols-2 gap-4 mx-3 lg:mx-32">
   <div class="mockup-code overflow-x-hidden">
