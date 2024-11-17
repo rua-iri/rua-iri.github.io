@@ -1,45 +1,33 @@
-{{ define "main" }}
-
-{{ partial "hero.html" (dict "Title" .Title "Content" (.Content | safeHTML) ) }}
+{{ define "main" }} {{ partial "hero.html" (dict "Title" .Title "Content"
+(.Content | safeHTML) ) }}
 
 <div class="mx-52">
-
   {{ range .RegularPages.GroupByDate "January 2006" }}
 
-  <div class="text-xl">
-    {{.Key}}
-  </div>
+  <section class="my-10">
+    <h2 class=" mb-2 text-3xl font-extrabold">{{.Key}}</h2>
 
-  <div class="grid grid-cols-4 gap-3">
-    {{ range .Pages }}
+    <div class="grid grid-cols-4 gap-3">
+      {{ range .Pages }}
 
-    <a href="{{.RelPermalink}}" class="hover:opacity-90">
-      <div class="card bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="{{ .Params.featuredImage }}"
-            alt="{{ .Title }} image" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">{{ .Title }}</h2>
-          <p>
-            <strong>Characters:</strong>&nbsp;
-            {{ .Params.charCount }}
-          </p>
-          <p>
-            <strong>Score:</strong>&nbsp;
-            {{ .Params.score }}
-          </p>
+      <a href="{{.RelPermalink}}" class="hover:opacity-90">
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img src="{{ .Params.featuredImage }}" alt="{{ .Title }} image" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">{{ .Title }}</h2>
+            <p><strong>Characters:</strong>&nbsp; {{ .Params.charCount }}</p>
+            <p><strong>Score:</strong>&nbsp; {{ .Params.score }}</p>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    {{ end }}
-  </div>
+      {{ end }}
+    </div>
+  </section>
 
-  {{ end }}
-
-  {{.Render "list"}}
+  {{ end }} {{.Render "list"}}
 </div>
 
 {{ end }}
