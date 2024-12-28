@@ -161,3 +161,17 @@ It's a filler word which can be variously used to mean; "so", "continue", "then"
 It's so useful in fact that I have observed even non-Bahrainis using it in their regular speech.
 
 It's not unlike the use of "ماشي" in other dialects.
+
+
+## عمبلوص 
+
+Like a lot of uniquely Bahraini terms this comes directly from English, likely due to British rule in the country and the linuguistic effects from that period.
+
+As you may be able to decipher this means Ambulance.
+
+## راندَبوت
+
+Roundabout
+
+For the same reasons outlined above.
+
