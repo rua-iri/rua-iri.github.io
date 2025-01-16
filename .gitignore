@@ -16,3 +16,5 @@ hugo.linux
 
 /node_modules
 /server
+
+bin/
