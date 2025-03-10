@@ -2,6 +2,7 @@
   "htmlElements": {
     "tags": [
       "a",
+      "animate",
       "article",
       "body",
       "br",
@@ -234,7 +235,7 @@
       "3-select-next-occurance-of-text",
       "3-الحضوري",
       "3-لاستغراق-خصائص-الأفراد",
-      "4-insert-newline-_before_",
+      "4-insert-newline-before",
       "5-hide-sidebar",
       "TableOfContents",
       "all-the-services-you-should-know-for-the-aws-developer-associate-exam",
@@ -272,9 +273,10 @@
       "setup",
       "spoooooook",
       "structure",
-      "translate_reader-desktop",
+      "translate-reader",
       "translation",
       "triangle-3-sides",
+      "whats_up_check",
       "writing--editing",
       "writing-custom-hugo-shortcodes",
       "أجگر",
