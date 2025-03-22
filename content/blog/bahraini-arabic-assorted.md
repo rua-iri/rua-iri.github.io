@@ -175,3 +175,10 @@ Roundabout
 
 For the same reasons outlined above.
 
+
+## مني ومناك
+
+Meaning `هنا` and `هناك` respectively.
+
+If you think about it, these kind of make sense, in that something __here__ is close to me and something that is __there__ could be close to you.
+
