@@ -5,7 +5,7 @@ draft: false
 featured: true
 author: "rua-iri"
 tags: []
-categories: []
+categories: ["Python"]
 externalLink: "https://github.com/rua-iri/bfi_report_deliverer"
 ---
 

@@ -6,7 +6,7 @@ draft: false
 toc: true
 author: "rua-iri"
 tags: []
-categories: []
+categories: ["React", "Arabic"]
 featured: true
 externalLink: "https://argaam.rua-iri.com/"
 ---

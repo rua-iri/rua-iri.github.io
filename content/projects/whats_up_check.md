@@ -5,7 +5,7 @@ draft: false
 toc: true
 author: "rua-iri"
 tags: []
-categories: []
+categories: ["AWS", "Networking", "Lambda"]
 featured: true
 externalLink: "https://github.com/rua-iri/whats_up_check"
 ---
