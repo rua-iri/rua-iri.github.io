@@ -68,12 +68,64 @@ mapscii
 [You can find the npm project here](https://www.npmjs.com/package/mapscii) 
 
 
+## bbcli
 
-# Telnet Star
+This is an application to read BBC News headlines from your terminal.
+
+I actually found that the original version was no longer working, due to a feature that the BBC have removed from their website, so I have forked it and removed some features that I didn't particularly like.
+
+You can try [the original](https://github.com/hako/bbcli) or [my version](https://github.com/rua-iri/bbcli).
+
+
+## Browsh
+
+This one is really cool.
+
+It's a terminal based web browser that can even render images as ascii.
+
+You can find more [here](https://www.brow.sh/).
+
+Probably the easiest way to run it, if you have docker installed, is this.
+
+```bash
+docker run -it browsh/browsh 
+```
+
+
+
+## Telnet Star Wars
 
 Okay, this one is a classic, really well known.
 
 If you run `telnet telehack.com` and then enter `starwars` you can watch an ASCII rendition of Star Wars from your terminal.
+
+
+## terminal_radio
+
+Of course I couldn't miss an oportunity for some shameless self promotion.
+
+You can add install my own application `terminal_radio` to listen to live music and radio streams right from the terminal.
+
+It uses the aforementioned `mpv` to stream the audio.
+
+to install it run
+
+```bash
+git clone https://github.com/rua-iri/terminal-radio/
+
+cd terminal-radio/
+
+./scripts/install.sh
+
+terminal_radio
+```
+
+You will probably have to find and add your own prefered stations to the database before you can really start to enjoy it, but honestly this is something I find myself using every day.
+
+
+
+
+
 
 
 
