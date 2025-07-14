@@ -1,6 +1,6 @@
 ---
 title: 'Terminal Decoration'
-date: 2025-07-01T12:00:00+03:00
+date: 2025-07-14T12:00:00+03:00
 draft: false
 toc: true
 author: "rua-iri"
@@ -35,12 +35,14 @@ The process is like this:
 wget <url_of_desired_gif>
 
 mpv --vo=sixel \
---vo-sixel-buffered \
 --really-quiet \
 --loop=inf
 ```
 
+
 This will play the gif in your terminal on a continuous loop without any other polluting output.
+
+![mpv demo](/images/terminal-decoration/mpv_demo.gif) 
 
 You can experiment with the size of the output using some other flags.
 
@@ -65,6 +67,8 @@ npm install -g mapscii
 mapscii
 ```
 
+![mapscii demo](/images/terminal-decoration/mapscii_demo.gif) 
+
 [You can find the npm project here](https://www.npmjs.com/package/mapscii) 
 
 
@@ -76,6 +80,7 @@ I actually found that the original version was no longer working, due to a featu
 
 You can try [the original](https://github.com/hako/bbcli) or [my version](https://github.com/rua-iri/bbcli).
 
+![bbcli demo](/images/terminal-decoration/bbcli_demo.gif) 
 
 ## Browsh
 
