@@ -44,7 +44,8 @@
                </label>
                <ul tabindex="0" class="menu menu-sm dropdown-content z-[1] p-2 shadow-lg bg-base-100 rounded-lg w-40">
                     {{range .Site.Menus.footer}}
-                    <li><a href="{{.URL}}" aria-label="Link to {{.Name}}">{{.Name}}</a>
+                    <li>
+                         <a href="{{.URL}}" aria-label="Link to {{.Name}}">{{.Name}}</a>
                     </li>
                     {{end}}
                </ul>
@@ -58,5 +59,11 @@
 
 
 </footer>
+
+{{ if not .IsHome }}
+     {{ $copyJs := resources.Get "js/copyCode.js" | js.Build "copyCode.js" | minify | fingerprint }}
+     <script src="{{ $copyJs.RelPermalink }}"></script>
+{{ end }}
+
 
 {{end}}

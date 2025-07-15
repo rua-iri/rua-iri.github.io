@@ -1,9 +1,10 @@
 <head>
   <!--META and FAVICON-->
   {{with .Site.Params.meta.title}}
-  <meta name="title" content="{{.}}" />
-  {{end}} {{with .Site.Params.meta.description}}
-  <meta name="description" content="{{.}}" />
+    <meta name="title" content="{{.}}" />
+  {{end}}
+  {{with .Site.Params.meta.description}}
+    <meta name="description" content="{{.}}" />
   {{end}} <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ','}}{{else}}{{with .Site.Params.meta.keywords}}{{ delimit . ','}}{{end}}{{end}}"/>
   <meta name="robots" content="index, follow" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,9 +12,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  {{ printf `
-  <link rel="shortcut icon" href="%s" />
-  ` ("favicon.ico" | absURL) | safeHTML }}
+  {{ printf `<link rel="shortcut icon" href="%s" />` ("favicon.ico" | absURL) | safeHTML }}
 
   <!--GA TAG-->
   {{ with .Site.Params.googleAnalytics }}
@@ -40,10 +39,12 @@
     rel="stylesheet"
   />
 
-  {{ $options := dict "inlineImports" true }} {{ $styles := resources.Get
-  "css/styles.css" }} {{ $styles = $styles | css.PostCSS $options }} {{ if
-  hugo.IsProduction }} {{ $styles = $styles | minify | fingerprint |
-  resources.PostProcess }} {{ end }}
+  {{ $options := dict "inlineImports" true }} 
+  {{ $styles := resources.Get "css/styles.css" }} 
+  {{ $styles = $styles | css.PostCSS $options }} 
+  {{ if hugo.IsProduction }} 
+    {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+  {{ end }}
   <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
 
   <!--FA-->

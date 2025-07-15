@@ -93,10 +93,18 @@ pre {
 }
 
 
-.code-textcontainer {
-  
+.code-textcontainer {}
+
+.code-textcontainer>div>pre {
+  overflow-x: auto;
 }
 
-.code-textcontainer > div > pre {
-  overflow-x: auto;
+pre {
+  position: relative;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 5px;
+  right: 5px
 }
