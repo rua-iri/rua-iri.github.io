@@ -211,3 +211,39 @@ It can be used as a gentle insult if you want to accuse someone of being immatur
 
 Also prounced as `يِهال`, depending on the accent.
 
+
+
+## بطّل
+
+To open
+
+{{< text_ar >}}
+أبطّل الباب
+{{< /text_ar >}}
+I open the door
+
+
+## بنّد
+
+To close
+
+{{< text_ar >}}
+أبنّد الباب
+{{< /text_ar >}}
+I close the door
+
+
+## دريشة (ج) درايش
+
+Window(s)
+
+
+## يصيح
+
+This one is kind of a false friend.
+
+You might know this as the verb meaning to shout/scream in Fusha, however in the Bahraini dialect it means `to cry`.
+
+
+
+
