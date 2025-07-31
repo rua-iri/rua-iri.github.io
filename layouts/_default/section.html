@@ -11,7 +11,9 @@
     </div>
 
     {{ range .Pages }}
-      {{ .Render "li" }}
+      {{ if ne .Page.Params.isHidden true }} 
+        {{ .Render "li" }}
+      {{ end }}
     {{ end }}
 
   {{ end }}
