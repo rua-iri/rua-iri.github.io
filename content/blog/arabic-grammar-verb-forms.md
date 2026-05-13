@@ -22,8 +22,16 @@ You can then use these verbs to derive related nouns and adjectives and extend y
 
 If you get really good then it is even possible to create humorous corruptions of the language which logically make sense but don't actually exist as words.
 
+For example I have never met an Arab who doesn't laugh at the following made up word, which is derrived from the levantine dish `منسف`
 
-In this article I'll go through the first ten forms (it is rare to encounter the forms above ten), and explain how they affect the meaning of the words they are applied to.
+{{< text_xl_ar >}}
+تَمَنَّفَ - يَتَمَنَّف - التَّمَنُّف
+{{< /text_xl_ar >}}
+
+It's really silly, but it's quite fun to play around with.
+
+
+In this article I'll go through the first ten forms (it is rare to encounter the forms above ten although they do exist), and explain how they affect the meaning of the words they are applied to.
 
 
 ## Form I
@@ -88,7 +96,7 @@ I don't know how to explain this one, but it's very commonly used.
 {{< /text_xl_ar >}}
 
 
-I always imagine this verb to mean that an action is carried out by the gloved hands of a machine in one of those old Mickey Mouse cartoons. You know like the ones where they have a kind of Rube Goldberg machine that contains a set of robotic hands covered by gloves which always do something like slap one of the characters unexpectedly.
+I always imagine this verb to mean that an action is carried out by the gloved hands of a machine in one of those old Mickey Mouse cartoons. You know like the ones where they have a kind of Rube Goldberg machine that has a set of robotic hands covered by gloves which always do something like slap one of the characters unexpectedly.
 
 For example
 
@@ -176,7 +184,7 @@ I'll demonstrate this one in a sentence to make it even more clear.
 He broke the glass - Form I
 
 {{< text_xl_ar >}}
-هو كَسَرَالزُجَاج
+هو كَسَرَ الزُجَاج
 {{< /text_xl_ar >}}
 
 
