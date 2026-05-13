@@ -63,9 +63,9 @@ Then over time the term `ice tea can` became more and more general in its usage 
 
 So now `استكانة شاي` carries the same meaning as `كاس شاي`.
 
-I believe Iraq has something similar with their word for rice, but I can't recall the details.
+Iraq has something similar with their word for rice, which they call `تمن` after the bags of "Ten Men" branded rice that were imported during the period of British rule there.
 
-Anyway, it's a good story, but I'm somewhat skeptical.
+Anyway, it's a good story, but I'm somewhat skeptical of whether it's historically accurate.
 
 
 ## تو
@@ -140,7 +140,7 @@ Because of the way that the letter `ج` is often silent in some Gulf dialects so
 
 This has led to a very common misunderstanding that this word originated from the English word `wide`, and somehow `wide` became used as the word for `a lot`.
 
-It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the island to know in which it occurs.
+It is particularly common among Kuwaitis and some Bahraini dialects, although I am not yet familiar enough with the different accents that exist around the islands to know in which it occurs.
 
 
 ## خوش
