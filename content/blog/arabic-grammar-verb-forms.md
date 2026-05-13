@@ -88,7 +88,7 @@ I don't know how to explain this one, but it's very commonly used.
 {{< /text_xl_ar >}}
 
 
-I always imagine this verb to mean that an action is carried out by the gloved hands of a machine in one of those old Mickey Mouse cartoons. You know like the ones where they have a kind of Rube Goldberg machine that contains a set of robotic hands covered by gloves which always do something (***) to one of the characters.
+I always imagine this verb to mean that an action is carried out by the gloved hands of a machine in one of those old Mickey Mouse cartoons. You know like the ones where they have a kind of Rube Goldberg machine that contains a set of robotic hands covered by gloves which always do something like slap one of the characters unexpectedly.
 
 For example
 
