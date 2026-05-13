@@ -20,15 +20,22 @@ If you understand them they grant you this sort of logical ability to modify fam
 
 You can then use these verbs to derive related nouns and adjectives and extend your vocabulary into this kind of interconnected web of relations.
 
+The left hand side of this amazing infographic gives a clear idea of how the insertion of a single root (`علم`) into different forms can produce words of similar but distinct meanings.
+
+![Alm Root Infographic](/images/arabic_roots/alm_root_infographic.jpg)
+
+
 If you get really good then it is even possible to create humorous corruptions of the language which logically make sense but don't actually exist as words.
 
 For example I have never met an Arab who doesn't laugh at the following made up word, which is derrived from the levantine dish `منسف`.
 
 {{< text_xl_ar >}}
-تَمَنَّفَ - يَتَمَنَّف - التَّمَنُّف
+تَمَنسَفَ - يَتَمَنسَف - التَّمَنسُف
 {{< /text_xl_ar >}}
 
 It's really silly, but it's quite fun to play around with.
+
+As a side note, making someone laugh in a your second language brings an unparalleled level of euphoria.
 
 
 In this article I'll go through the first ten forms (it is rare to encounter the forms above ten although they do exist), and explain how they affect the meaning of the words they are applied to.
