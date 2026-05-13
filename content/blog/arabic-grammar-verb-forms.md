@@ -22,7 +22,7 @@ You can then use these verbs to derive related nouns and adjectives and extend y
 
 If you get really good then it is even possible to create humorous corruptions of the language which logically make sense but don't actually exist as words.
 
-For example I have never met an Arab who doesn't laugh at the following made up word, which is derrived from the levantine dish `منسف`
+For example I have never met an Arab who doesn't laugh at the following made up word, which is derrived from the levantine dish `منسف`.
 
 {{< text_xl_ar >}}
 تَمَنَّفَ - يَتَمَنَّف - التَّمَنُّف
